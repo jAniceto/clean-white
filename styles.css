@@ -1,0 +1,264 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#wrapper {
+	min-height: 100%;
+	position: relative;
+	background-color: #FFFFFF;
+	font-family: 'Molengo', sans-serif;
+}
+
+.clear {
+	clear: both;
+}
+
+
+/* HEADER STYLES START HERE */
+
+#themeHelp {
+	position: fixed;
+	top: 18px;
+	right: 45px;
+	/*color: rgba(0,0,0,0.6);*/
+	font-size: 0.8em;
+	z-index: 1;
+	display: none;
+}
+
+#theme {
+	height: 12px;
+	width: 12px;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	background-color: #171D25;
+	box-shadow: 2px 2px 2px #888888;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#header {
+	color: #333333;
+	padding: 30px 0px 50px 0px;
+	height: 100px;
+	top: 0;
+	position: fixed;
+	width: 100%;
+	background-color: #FFFFFF;
+	/*border-bottom: solid 1px rgba(243, 243, 243, 1);*/
+}
+
+.fixedwidth {
+	width: 800px;
+	margin: 0 auto;
+	/*background-color: rgba(243, 243, 243, 1); /*GUIDE ONLY*/
+	/*height: 500px; /*GUIDE ONLY*/
+}
+
+#logo {
+	float: left;
+	padding-right: 20px;
+}
+
+#logo h1 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+    font-size: 55px;
+    line-height: 65px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#logo p {
+	font-size: 0.8em;
+	padding: 0 0 5px 17px;
+	margin: 0;
+	font-family: 'Molengo', sans-serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border-bottom: solid 1px rgba(243, 243, 243, 1);
+	text-align: right;
+}
+
+#nav {
+	float: right;
+	padding-top: 45px;
+}
+
+#nav ul {
+	
+}
+
+#nav li {
+	float: left;
+	list-style-type: none;
+	padding: 0 24px 0 0;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+}
+
+a:link {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+#nav a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+
+
+/* CONTENT STYLES START HERE */
+
+#content {
+	padding: 10px;
+	padding-top: 130px;
+	padding-bottom: 40px;   /* Height of the footer element */
+}
+
+.sectiondiv {
+	padding-bottom: 50px;
+	padding-top: 10px;	
+}
+
+h2 {
+	font-size: 3em;
+	font-family: 'Lobster';
+	color: #333333;
+}
+
+#photo {
+	float: right;
+	margin: 0 10px 10px 10px;
+}
+
+#content p {
+	color: #3a3a3a;
+	line-height: 25px;
+	letter-spacing: 1px;
+}
+
+h3 {
+	color: #333333;
+}
+
+#contactinfo {
+	float: left;
+}
+
+#linkicons {
+	margin-top: 2em;
+}
+
+#linkicons > a {
+	margin-right: 1em;
+}
+
+/*#contactmap {
+	float: right;
+}*/
+
+#map {
+	float: right;
+    width: 400px;
+	height: 300px;
+}
+
+
+#contactform {
+	padding-top: 20px;
+}
+
+.inputBox {
+	padding: 10px 15px;
+	width: 280px;
+	font-family: 'Molengo', sans-serif;
+	font-size: 1.1em;
+}
+
+.textBox {
+	padding: 10px 15px;
+	width: 90%;
+	height: 130px;
+	font-family: 'Molengo', sans-serif;
+	font-size: 1.1em;
+}
+
+#submitFormButton {
+	padding: 10px 15px;
+	border: none;
+	font-family: 'Molengo', sans-serif;
+	font-size: 1.1em;
+	color: white;
+	background-color: #333333;
+}
+
+/*#formAlert {
+	float: right;
+	color:red;
+	padding: 10px 15px;
+}*/
+
+/* just testing */
+
+/* FOOTER STYLES START HERE */
+
+#footer {
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin-right: 100px;
+	border-top: solid 1px rgba(243, 243, 243, 1);
+	background-color: #FFFFFF;
+	color: rgba(0,0,0,0.5);
+	font-size: 0.9em;
+}
+
+#scrolltop {
+	float: right;
+	padding: 10px;
+	display: none;
+}
+
+#copyright {
+	float: left;
+	padding: 10px;
+}
+
+#shortcontact, #smallphoto {
+	float: right;
+	padding: 10px;
+}
+
+
+/* DARK THEME CLASSES*/
+
+.darkBackground {
+	background-color: #171D25;
+	color: #007BA8;
+}
+
+
+/* FORM SUBMITTED*/
+#thankyoucard {
+	border: 2px solid rgba(243, 243, 243, 1);
+	/*box-shadow: 1px 1px 1px #888888;*/
+	margin: auto;
+	width: 30%;
+    padding: 10px;
+    position:absolute;
+    top: 35%;
+    left: 50%;
+}
